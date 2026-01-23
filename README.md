@@ -1,5 +1,5 @@
-# wldyd
-wldyd
+# AIOT
+aiot
 <hr/>
 
 ## AIOT 프로그래밍
