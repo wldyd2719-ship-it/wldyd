@@ -21,8 +21,10 @@ aiot
   +tensorflow
   +keras
 
-  <hr/>
-
+<hr/>
+<hr/>
+(AI)
+<hr/>
 # 🤖 AIOT
 AI + IoT 기반 프로그래밍 및 인공지능 실습 레포지토리
 
