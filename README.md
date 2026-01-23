@@ -1,3 +1,28 @@
+(초안용)
+
+<hr/>
+
+# AIOT
+aiot
+
+<hr/>
+
+## AIOT 프로그래밍 
+
+<hr/> 
+
+* ### Python 
+* ### Open CV 
+* ### YOLO 
+* ### AI PGM
+  +numpy
+  +pandas
+  +matplotlib
+  +tensorflow
+  +keras
+
+  <hr/>
+
 # 🤖 AIOT
 AI + IoT 기반 프로그래밍 및 인공지능 실습 레포지토리
 
@@ -42,3 +67,4 @@ Python을 기반으로 컴퓨터 비전과 인공지능 모델 구현을 연습�
 ## 📂 참고
 - 본 레포지토리는 **학습 및 연습 목적**으로 작성되었습니다.
 - 코드 및 구조는 학습 진행에 따라 변경될 수 있습니다.
+
