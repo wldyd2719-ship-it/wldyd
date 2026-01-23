@@ -6,5 +6,9 @@ wldyd
 *### Open CV
 *### YOLO
 *### AI PGM
-+numpy
-+
+  +numpy
+  +pandas
+  +matplotlib
+  +tensorflow
+  +keras
+
