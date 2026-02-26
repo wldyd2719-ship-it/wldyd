@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Clap Switch</title>
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    #screen {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 48px;
+      font-weight: bold;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<div id="screen">🌑 SCREEN OFF</div>
+
+<script>
+let isOn = false;
+let lastClap = 0;
+const COOLDOWN = 1000;     // ms
+const THRESHOLD = 0.25;   // 박수 감지 민감도
+
+async function startMic() {
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  const audioContext = new AudioContext();
+  const mic = audioContext.createMediaStreamSource(stream);
+  const analyser = audioContext.createAnalyser();
+  analyser.fftSize = 2048;
+
+  mic.connect(analyser);
+
+  const data = new Uint8Array(analyser.fftSize);
+
+  function detectClap() {
+    analyser.getByteTimeDomainData(data);
+
+    let sum = 0;
+    for (let i = 0; i < data.length; i++) {
+      const v = (data[i] - 128) / 128;
+      sum += v * v;
+    }
+    const energy = sum / data.length;
+
+    const now = Date.now();
+    if (energy > THRESHOLD && now - lastClap > COOLDOWN) {
+      lastClap = now;
+      toggleScreen();
+    }
+
+    requestAnimationFrame(detectClap);
+  }
+
+  detectClap();
+}
+
+function toggleScreen() {
+  isOn = !isOn;
+  const screen = document.getElementById("screen");
+
+  if (isOn) {
+    document.body.style.background = "#f7f7f7";
+    screen.style.color = "#111";
+    screen.innerText = "🔆 SCREEN ON";
+  } else {
+    document.body.style.background = "#111";
+    screen.style.color = "white";
+    screen.innerText = "🌑 SCREEN OFF";
+  }
+}
+
+startMic();
+</script>
+
+</body>
+</html>
