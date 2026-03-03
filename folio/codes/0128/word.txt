@@ -1,5 +1,0 @@
-python
-computer
-hangman
-programming
-keyboard

@@ -1,1 +1,0 @@
-cwd = os.getcwd()
