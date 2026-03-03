@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 홍길동
+=======
+홍길동
+>>>>>>> 1e8d041 (Add AIoT project files)
 김철수

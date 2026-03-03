@@ -1,0 +1,2 @@
+print("asd", end= "")
+print("fgh")

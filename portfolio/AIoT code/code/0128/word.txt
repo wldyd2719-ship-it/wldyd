@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 python
 computer
 hangman
 programming
+=======
+python
+computer
+hangman
+programming
+>>>>>>> 1e8d041 (Add AIoT project files)
 keyboard
