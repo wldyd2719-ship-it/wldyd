@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Apr 28 17:24:55 2026
+# Process ID: 10260
+# Current directory: C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/servo_motor_test/servo2/servo_motor_2.runs/impl_1
+# Command line: vivado.exe -log top_servor_control.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_servor_control.tcl -notrace
+# Log file: C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/servo_motor_test/servo2/servo_motor_2.runs/impl_1/top_servor_control.vdi
+# Journal file: C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/servo_motor_test/servo2/servo_motor_2.runs/impl_1\vivado.jou
+# Running On: ST11, OS: Windows, CPU Frequency: 3408 MHz, CPU Physical cores: 4, Host memory: 8541 MB
+#-----------------------------------------------------------
+source top_servor_control.tcl -notrace

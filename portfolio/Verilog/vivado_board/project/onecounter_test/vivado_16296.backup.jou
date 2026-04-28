@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr 17 16:34:07 2026
+# Process ID: 16296
+# Current directory: C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13924 C:\Users\SAMSUNG\Desktop\verilog\vivado_board\project\onecounter_test\one_counter.xpr
+# Log file: C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test/vivado.log
+# Journal file: C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test\vivado.jou
+# Running On: ST11, OS: Windows, CPU Frequency: 3408 MHz, CPU Physical cores: 4, Host memory: 8541 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test/one_counter.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test/one_counter.runs/impl_1/one_counter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test/one_counter.runs/impl_1/one_counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test/one_counter.runs/impl_1/one_counter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test/one_counter.runs/impl_1/one_counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test/one_counter.runs/impl_1/one_counter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/SAMSUNG/Desktop/verilog/vivado_board/project/onecounter_test/one_counter.runs/impl_1/one_counter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

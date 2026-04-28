@@ -1,0 +1,7 @@
+Running: xsim.dir/rw_detector_tb_behav/xsimk.exe -simmode gui -wdb rw_detector_tb_behav.wdb -simrunnum 0 -socket 10624
+Design successfully loaded
+Design Loading Memory Usage: 7548 KB (Peak: 7548 KB)
+Design Loading CPU Usage: 78 ms
+Simulation completed
+Simulation Memory Usage: 8092 KB (Peak: 8092 KB)
+Simulation CPU Usage: 78 ms

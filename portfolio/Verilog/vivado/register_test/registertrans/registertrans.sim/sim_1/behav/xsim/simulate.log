@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Time= 0 | DATA_IN= 0000 A= xxxx B= xxxx
+Time= 5000 | DATA_IN= 0000 A= 0000 B= xxxx
+Time= 7000 | DATA_IN= 0001 A= 0000 B= xxxx
+Time= 15000 | DATA_IN= 0001 A= 0001 B= 0000
+Time= 17000 | DATA_IN= 0111 A= 0001 B= 0000
+Time= 25000 | DATA_IN= 0111 A= 0111 B= 0001
+Time= 27000 | DATA_IN= 0000 A= 0111 B= 0001
+Time= 35000 | DATA_IN= 0000 A= 0000 B= 0111
+Time= 37000 | DATA_IN= 1110 A= 0000 B= 0111
+Time= 45000 | DATA_IN= 1110 A= 1110 B= 0000
+Time= 47000 | DATA_IN= 1011 A= 1110 B= 0000
+Time= 55000 | DATA_IN= 1011 A= 1011 B= 1110
+$finish called at time : 57 ns : File "C:/Users/SAMSUNG/Desktop/verilog/register_test/registertrans/registertrans.srcs/sim_1/new/register_tb.v" Line 24

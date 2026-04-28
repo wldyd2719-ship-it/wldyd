@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+Time=0 | load=0 I=0000 Q=xxxx
+Time=10000 | load=0 I=1010 Q=xxxx
+Time=20000 | load=0 I=1111 Q=xxxx
+Time=30000 | load=1 I=1100 Q=xxxx
+Time=35000 | load=1 I=1100 Q=1100
+Time=40000 | load=1 I=0011 Q=1100
+Time=45000 | load=1 I=0011 Q=0011
+Time=50000 | load=0 I=0101 Q=0011
+Time=70000 | load=1 I=1110 Q=0011
+Time=75000 | load=1 I=1110 Q=1110
+$finish called at time : 100 ns : File "C:/Users/SAMSUNG/Desktop/verilog/register_test/4-bit_reg_load/4bit_reg_load.srcs/sim_1/new/reg_4bit_load_tb.v" Line 29

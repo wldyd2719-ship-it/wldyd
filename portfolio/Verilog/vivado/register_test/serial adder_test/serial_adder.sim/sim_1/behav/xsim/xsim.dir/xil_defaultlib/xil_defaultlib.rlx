@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/SAMSUNG/Desktop/verilog/register_test/serial adder_test/serial_adder.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/SAMSUNG/Desktop/verilog/register_test/serial adder_test/serial_adder.srcs/sim_1/new/serial_adder_tb.v,1775200355,verilog,,,,serial_adder_tb,,,,,,,,
+C:/Users/SAMSUNG/Desktop/verilog/register_test/serial adder_test/serial_adder.srcs/sources_1/new/fa_reg.v,1775199543,verilog,,C:/Users/SAMSUNG/Desktop/verilog/register_test/serial adder_test/serial_adder.srcs/sources_1/new/paral_access_reg.v,,fa_reg,,,,,,,,
+C:/Users/SAMSUNG/Desktop/verilog/register_test/serial adder_test/serial_adder.srcs/sources_1/new/paral_access_reg.v,1775199543,verilog,,C:/Users/SAMSUNG/Desktop/verilog/register_test/serial adder_test/serial_adder.srcs/sources_1/new/serial_adder.v,,paral_access_reg,,,,,,,,
+C:/Users/SAMSUNG/Desktop/verilog/register_test/serial adder_test/serial_adder.srcs/sources_1/new/serial_adder.v,1775202703,verilog,,C:/Users/SAMSUNG/Desktop/verilog/register_test/serial adder_test/serial_adder.srcs/sim_1/new/serial_adder_tb.v,,serial_adder,,,,,,,,

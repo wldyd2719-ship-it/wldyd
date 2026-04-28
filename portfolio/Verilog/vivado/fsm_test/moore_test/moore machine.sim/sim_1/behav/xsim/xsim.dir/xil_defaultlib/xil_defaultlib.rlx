@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/SAMSUNG/Desktop/verilog/fsm_test/moore_test/moore machine.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/SAMSUNG/Desktop/verilog/fsm_test/moore_test/moore machine.srcs/sim_1/new/moore_101detector_tb.v,1775020827,verilog,,,,moore_101detector_tb,,,,,,,,
+C:/Users/SAMSUNG/Desktop/verilog/fsm_test/moore_test/moore machine.srcs/sources_1/new/moore_101detector.v,1775011509,verilog,,C:/Users/SAMSUNG/Desktop/verilog/fsm_test/moore_test/moore machine.srcs/sources_1/new/moore_110detector.v,,moore_101detector,,,,,,,,
+C:/Users/SAMSUNG/Desktop/verilog/fsm_test/moore_test/moore machine.srcs/sources_1/new/moore_110_2.v,1775020725,verilog,,C:/Users/SAMSUNG/Desktop/verilog/fsm_test/moore_test/moore machine.srcs/sources_1/new/moore_110detector.v,,moore_110_2,,,,,,,,
+C:/Users/SAMSUNG/Desktop/verilog/fsm_test/moore_test/moore machine.srcs/sources_1/new/moore_110detector.v,1775014688,verilog,,C:/Users/SAMSUNG/Desktop/verilog/fsm_test/moore_test/moore machine.srcs/sim_1/new/moore_101detector_tb.v,,moore_110detector,,,,,,,,
